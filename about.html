@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet" />
 
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/vendors/bootstrap-select/bootstrap-select.min.css" />
     <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
@@ -41,7 +41,7 @@
     <div class="custom-cursor__cursor-two"></div>
 
     <div class="preloader">
-        <div class="preloader__image" style="background-image: url(assets/images/FK\ Visa\ logo.png);"></div>
+        <div class="preloader__image" style="background-image: url(assets/images/FK\ Visa\ logo\ 1.png);"></div>
     </div>
     <!-- /.preloader -->
     <div class="header-top py-2 bg-white">
@@ -61,7 +61,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="header-info-left text-center">
-                        <div class="timestamp ms-4 text-white"> <i class="far fa-clock mx-2"></i> Mon - Fri 10:00-5:00
+                        <div class="timestamp ms-4 text-white"> <i class="far fa-clock mx-2"></i> Mon - Fri 10:00-8:00
                         </div>
                     </div>
                 </div>
@@ -83,7 +83,7 @@
                 <div class="container-fluid pe-0 ps-5">
                     <div class="main-menu__logo">
                         <a href="index.html">
-                            <img src="assets/images/FK Visa logo.png" class="" style="width: 110px;" alt="Ogency">
+                            <img src="assets/images/FK Visa logo 1.png" class="" style="width: 110px;" alt="Ogency">
                         </a>
                     </div><!-- /.main-menu__logo -->
                     <div class="main-menu__nav px-3">
@@ -97,14 +97,21 @@
                             <li class="dropdown">
                                 <a href="#">Services</a>
                                 <ul>
+                                    <li><a href="tourists-visa.html">Tourists Visa</a></li>
+                                    <li><a href="working-visa.html">Visit Visa</a></li>
                                     <li><a href="business-visa.html">Business Visa</a></li>
                                     <li><a href="immigration-visa.html">Immigration Visa</a></li>
-                                    <li><a href="tourists-visa.html">Tourists Visa</a></li>
-                                    <li><a href="working-visas.html">Working Visas</a></li>
                                 </ul>
                             </li>
-                            <li><a href="blog.html">Blog</a></li>
+                          
                             <li><a href="testimonials.html">Testimonials</a></li>
+
+                            <li class="dropdown">
+                                <a href="blog.html">Blog</a>
+                                <ul>
+                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                </ul>
+                            </li>
 
                             <li><a href="career.html">Career</a></li>
 
@@ -117,7 +124,7 @@
                                 <i class="fas fa-phone-volume text-white"></i>
                                 <p class="text-nowrap px-2 text-white mb-0">Any Questions? Call us</p>
                             </div>                            
-                                 <h3 class="ps-5"><a href="tel:(051) 8447476 " class="text-white">0335 8555251</a></h3>
+                                 <h3 class="ps-5"><a href="tel:0312-4955333 " class="text-white tel-phone">0312-4955333 || 0313-4955333</a></h3>
                         </div>
                     </div>
                 </div>
@@ -322,7 +329,9 @@
             </div><!-- /.container -->
         </section><!-- /.page-header -->
         <!-- About Start -->
-        <section class="about-three">
+        <section class="about-three" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
@@ -369,13 +378,15 @@
         </section>
         <!-- About End -->
         <!-- Sliding Text Start-->
-        <section class="slider-text-one">
+        <section class="slider-text-one" data-aos="fade-left"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
             <div class="slider-text-one__animate-text">
                 <span>Our satisfied <span>&</span> happy clients&nbsp;</span>
                 <span>Our satisfied <span>&</span> happy clients&nbsp;</span>
             </div>
         </section>
-        <section class="work-process-one">
+        <section class="work-process-one" data-aos="flip-left">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -435,7 +446,9 @@
             </div>
         </section>
       <!-- Why Choose Start -->
-      <section class="why-choose">
+      <section class="why-choose" data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 wow fadeInLeft animated" data-wow-delay="200ms">
@@ -493,7 +506,7 @@
         </div>
     </section>
     <!-- Why Choose End -->
-        <div class="client-carousel client-carousel--about">
+        <div class="client-carousel client-carousel--about" data-aos="zoom-in-down">
             <div class="container">
                 <h5 class="client-carousel__tilte"><span>Countries We Deal in Visas
                 </span></h5><!-- section-title -->
@@ -676,6 +689,12 @@
     <!-- back-to-top-end -->
 
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            window.addEventListener("load", function() {
+                AOS.init();
+            });
+        </script>
     <script src="assets/vendors/jquery/jquery-3.5.1.min.js"></script>
     <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>

@@ -559,7 +559,7 @@
 
 .sidebar__single {
   position: relative;
-  background-color: var(--ogency-black2);
+  background-color: #162e40;
   padding: 45px 50px 45px;
 }
 
@@ -586,7 +586,7 @@
   display: block;
   border: none;
   outline: none;
-  background-color: var(--ogency-black);
+  background-color: #fff;
   box-shadow: none;
   color: var(--ogency-color);
   font-size: 14px;
@@ -2233,7 +2233,7 @@ h6 {
 .main-menu .main-menu__list > li:hover > a,
 .stricky-header .main-menu__list > li.current > a,
 .stricky-header .main-menu__list > li:hover > a {
-  color: var(--ogency-base);
+  color: #00a858;
   text-shadow: 0px 0 0 currentColor;
 }
 
@@ -2321,10 +2321,12 @@ h6 {
 .main-menu .main-menu__list li ul li:hover > a,
 .stricky-header .main-menu__list li ul li.current > a,
 .stricky-header .main-menu__list li ul li:hover > a {
-  background-color: var(--ogency-black);
+  background-color: #162e40;
   color: var(--ogency-white);
 }
-
+.tel-phone{
+  font-size: 10px;
+}
 .main-menu .main-menu__list li ul li.current > a::after,
 .main-menu .main-menu__list li ul li:hover > a::after,
 .stricky-header .main-menu__list li ul li.current > a::after,
@@ -3864,7 +3866,7 @@ h6 {
   z-index: 2;
   display: block;
   text-align: left;
-  margin: 0 0 -9px 67px;
+  margin: 0 0 -129px 7px;
   opacity: 0;
   visibility: hidden;
   -webkit-transform: translateY(-120px);
@@ -3899,7 +3901,7 @@ h6 {
   display: inline-block;
   width: 30px;
   height: 30px;
-  background-color: var(--ogency-base);
+  background-color: #fff;
   border-radius: 50%;
   margin: 0 5px;
 }
@@ -4607,7 +4609,7 @@ font-size: 22px;
   background-color: #162e40 !important;
 }
 .about-btn{
-  background-color: #162e40;
+  background-color: #00a858;
   border: none;
 }
 .client-carousel{
@@ -5449,7 +5451,7 @@ font-size: 22px;
 }
 .unparalled-section{
   padding: 160px 150px !important;
-  background: #2d5883
+  background: #162e40;
 }
 .countries-section{
   margin-top: 30px;
@@ -5649,7 +5651,7 @@ font-size: 22px;
   width: 288px;
   height: 288px;
   padding: 20px;
-  background-color:#B30505 ;
+  background-color:#162e40 ;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -7308,7 +7310,7 @@ font-size: 22px;
 .why-choose__box__icon {
   width: 58px;
   height: 58px;
-  background-color: var(--ogency-black2);
+  background-color: #162e40;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -7324,7 +7326,7 @@ font-size: 22px;
 }
 
 .why-choose__box:hover .why-choose__box__icon {
-  background-color: var(--ogency-base);
+  background-color: #00a858;
   color: var(--ogency-white);
 }
 
@@ -7442,12 +7444,12 @@ font-size: 22px;
 }
 
 .why-choose__image .video-one__banner__curved-circle-box .video-popup {
-  background-color: var(--ogency-black);
+  background-color: #162e40;
   color: var(--ogency-white);
 }
 
 .why-choose__image .video-one__banner__curved-circle-box .video-popup:hover {
-  background-color: var(--ogency-base);
+  background-color: #00a858;
 }
 
 /*-- Why chooose tow --*/
@@ -8244,7 +8246,7 @@ font-size: 22px;
   justify-content: center;
   color: var(--ogency-base);
   font-size: 49px;
-  background-color: var(--ogency-black);
+  background-color: #00a858;
   position: absolute;
   left: 0;
   top: 0;

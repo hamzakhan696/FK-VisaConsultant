@@ -14,6 +14,7 @@
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
     <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
@@ -41,40 +42,7 @@
     <div class="custom-cursor__cursor-two"></div>
 
     <div class="preloader">
-        <div class="preloader__image" style="background-image: url(assets/images/FK\ Visa\ logo.png);"></div>
-    </div>
-    <div class="header-top py-2 bg-white">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-4">
-                    <div class="header-info-left">
-                        <div class="timestamp ms-4 text-nowrap"> <i class="fas fa-map-marker-alt mx-2"></i>Office # 26, 2nd Floor, New, Liberty Tower, Model Town Lahore.
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="header-info-left text-end">
-                        <div class="timestamp ms-4"> <i class="far fa-envelope mx-2"></i>  info@nileconsultant.com
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="header-info-left text-center">
-                        <div class="timestamp ms-4"> <i class="far fa-clock mx-2"></i> Mon - Fri 10:00-5:00
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="text-end">
-                <div class="social-icons">
-                    <i class="fab fa-twitter mx-2"></i> <!-- corrected -->
-                    <i class="fab fa-facebook mx-2"></i> <!-- corrected -->
-                    <i class="fab fa-instagram mx-2"></i> <!-- corrected -->
-                    <i class="fab fa-linkedin mx-2"></i> <!-- corrected -->
-                    <i class="fab fa-youtube mx-2"></i> <!-- corrected -->
-                </div>
-            </div>
-        </div>
+        <div class="preloader__image" style="background-image: url(assets/images/FK\ Visa\ logo\ 1.png);"></div>
     </div>
     <!-- /.preloader -->
     <div class="header-top py-2 bg-white">
@@ -94,7 +62,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="header-info-left text-center">
-                        <div class="timestamp ms-4 text-white"> <i class="far fa-clock mx-2"></i> Mon - Fri 10:00-5:00
+                        <div class="timestamp ms-4 text-white"> <i class="far fa-clock mx-2"></i> Mon - Fri 10:00-8:00
                         </div>
                     </div>
                 </div>
@@ -116,7 +84,7 @@
                 <div class="container-fluid pe-0 ps-5">
                     <div class="main-menu__logo">
                         <a href="index.html">
-                            <img src="assets/images/FK Visa logo.png" class="" style="width: 110px;" alt="Ogency">
+                            <img src="assets/images/FK Visa logo 1.png" class="" style="width: 110px;" alt="Ogency">
                         </a>
                     </div><!-- /.main-menu__logo -->
                     <div class="main-menu__nav px-3">
@@ -130,14 +98,21 @@
                             <li class="dropdown">
                                 <a href="#">Services</a>
                                 <ul>
+                                    <li><a href="tourists-visa.html">Tourists Visa</a></li>
+                                    <li><a href="working-visa.html">Visit Visa</a></li>
                                     <li><a href="business-visa.html">Business Visa</a></li>
                                     <li><a href="immigration-visa.html">Immigration Visa</a></li>
-                                    <li><a href="tourists-visa.html">Tourists Visa</a></li>
-                                    <li><a href="working-visas.html">Working Visas</a></li>
                                 </ul>
                             </li>
-                            <li><a href="blog.html">Blog</a></li>
+                          
                             <li><a href="testimonials.html">Testimonials</a></li>
+
+                            <li class="dropdown">
+                                <a href="blog.html">Blog</a>
+                                <ul>
+                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                </ul>
+                            </li>
 
                             <li><a href="career.html">Career</a></li>
 
@@ -150,7 +125,7 @@
                                 <i class="fas fa-phone-volume text-white"></i>
                                 <p class="text-nowrap px-2 text-white mb-0">Any Questions? Call us</p>
                             </div>                            
-                                 <h3 class="ps-5"><a href="tel:(051) 8447476 " class="text-white">0335 8555251</a></h3>
+                                 <h3 class="ps-5"><a href="tel:0312-4955333 " class="text-white tel-phone">0312-4955333 || 0313-4955333</a></h3>
                         </div>
                     </div>
                 </div>
@@ -350,11 +325,13 @@
             </div>
         </section>
         <!-- Services Details Start -->
-        <section class="services-details">
+        <section class="services-details" >
             <div class="container">
                 <div class="row">
                     <div class="col-xl-4 col-lg-5 wow fadeInUp animated" data-wow-delay="300ms">
-                        <div class="services-details__sidebar">
+                        <div class="services-details__sidebar" data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                             <div class="services-details__services-list">
                                 <ul class="services-details__services list-unstyled">
                                     <li><a href="business-visa.html" class="business-visa">Business Visa</a></li>
@@ -363,7 +340,9 @@
                                     <li><a href="working-visas.html" class="working-visa text-white">Working Visa</a></li>
                                 </ul>
                             </div><!-- /.service-widget -->
-                            <div class="services-details__banner">
+                            <div class="services-details__banner" data-aos="fade-right"
+                            data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
                                 <p class="text-white">Free Online Assessment</p>
                                 <form>
                                     <div class="mb-3">
@@ -394,14 +373,16 @@
                         </div>
                     </div><!-- /.column -->
                     <div class="col-xl-8 col-lg-7 wow fadeInUp animated" data-wow-delay="400ms">
-                        <div class="services-details__content">
+                        <div class="services-details__content" data-aos="fade-up-left">
                             <div class="services-details__thumb"><img src="assets/images/tourists.jpg" alt="ogency"></div>
                             <p style="font-size: 24px; line-height: 34px;">Sponsoring and managing tourist visa parts now becoming results in the experience with future guaranteed.</p>
                             <h3 class="services-details__content__title">Tourist Visa</h3>
                             <p class="services-details__content__text">
                                 The world is a wonderful place to visit and live. Every country has its hidden gems of beauty. A type of non-immigrant visa called a "tourist" or "temporary resident" visa enables the holder to visit a foreign nation for a little time and then temporarily stay there. A tourist’s visa application may be made for any of the following reasons: vacation, getting together with family and friends, pleasure, or receiving medical treatment. Depending on the country one wishes to apply to, the length of a tourist visa will vary. Tourist visas are often issued for a duration of three to six months, though this can vary depending on your profile and the nation you choose to travel to. Although applying for a tourist visa seems straightforward and uncomplicated, it necessitates extreme accuracy to prevent being denied. New application requirements, forms, documents, and other information must all be updated. NILE will provide you with the best and most knowledgeable team to help you with file processing. Our team will take care to ensure that your application process is quick, easy, and of the highest caliber. The ultimate group travel experience is available from NILE. These visas are usually for a short period of time and allow visa holders to do business in the countries they visit. Y-Axis can assist you in evaluating your alternatives and applying for a visa that will allow you to conduct business in a foreign country
                             </p>
-                            <ul class="services-details__points list-unstyled">
+                            <ul class="services-details__points list-unstyled" data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
                                 <li class="px-2">
                                     <div class="services-details__points__icon"><i class="fas fa-file"></i></div>
                                     <h3 class="services-details__points__title pt-5 text-center">Fill In The <br>
@@ -424,7 +405,7 @@
                                         <p class="text-center pt-3">After completing all the tasks you will get your resource material for a visa in some days.</p>
                                 </li>
                             </ul>
-                            <div class="countries-section">
+                            <div class="countries-section" data-aos="fade-up-right">
                                 <p class="text-center">HOW WE HELP CLIENTS</p>
                                 <h1 class="text-center mb-5">Countries We Deal in tourist Visas</h1>
                                 <div class="row">
@@ -477,7 +458,9 @@
                                
                                 </div>
                             </div>
-                            <div class="services-details__benefit">
+                            <div class="services-details__benefit" data-aos="fade-right"
+                            data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
                                 <div class="row">
                                     <div class="col-xl-6 col-lg-12 col-md-6">
                                         <div class="services-details__benefit__img">
@@ -504,12 +487,11 @@
             </div>
         </section>
         <!-- Services Details End -->
-
         <footer class="main-footer" style="background-image: url(assets/images/backgrounds/footer-bg-1.png);">
             <div class="container">
                 <div class="main-footer__top wow fadeInUp animated" data-wow-delay="100ms">
                     <a href="index.html" class="main-footer__logo">
-                        <img src="assets/images/footer-logo.png" alt="ogency" width="55" height="55">
+                        <img src="assets/images/FK Visa logo.png" alt="ogency" style="width: 50%;">
                     </a><!-- /.footer-logo -->
                     <div class="main-footer__social">
                         <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
@@ -521,84 +503,40 @@
                 <div class="row">
                     <div class="col-lg-8 col-md-6 wow fadeInUp animated" data-wow-delay="200ms">
                         <div class="main-footer__about">
-                            <p class="footer-widget__text">Let’s start working together</p>
-                            <a href="mailto:help@company.com">help@company.com</a>
+                            <p class="footer-widget__text text-white">Make your dreams come true. Join our team of experts for Visa advice and visit the most beautiful places around the world. We offer Visa consultancy, Tourism Visa & Immigration Services.</p>
+                            <a href="mailto:help@company.com">Info@fkvisaconsultant.com</a>
                         </div><!-- /.footer-widget -->
                     </div>
                     <div class="col-lg-2 col-md-3 wow fadeInUp animated" data-wow-delay="300ms">
                         <div class="main-footer__navmenu">
                             <ul>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="team.html">Meet the Team</a></li>
-                                <li><a href="blog-grid-right.html">News & Media</a></li>
-                                <li><a href="projects.html">Our Projects</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li class="text-white mb-3" style="font-size: 22px;"><a>Quick Links</a></li>
+                                <li class="text-white"><a href="about.html">About</a></li>
+                                <li class="text-white"><a href="team.html">Services</a></li>
+                                <li class="text-white"><a href="blog-grid-right.html">Blog</a></li>
+                                <li class="text-white"><a href="projects.html">Career</a></li>
+                                <li class="text-white"><a href="contact.html">Contact</a></li>
                             </ul><!-- /.list-unstyled -->
                         </div><!-- /.footer-widget -->
                     </div>
                     <div class="col-lg-2 col-md-3 wow fadeInUp animated" data-wow-delay="400ms">
                         <div class="main-footer__navmenu">
                             <ul>
-                                <li><a href="faq.html">Our Faqs</a></li>
-                                <li><a href="gallery.html">Gallery</a></li>
-                                <li><a href="services.html">Services</a></li>
-                                <li><a href="contact.html">Help</a></li>
+                                <li class="text-white mb-3" style="font-size: 22px;"><a>Services</a></li>
+                                <li class="text-white"><a href="faq.html">Business Visas</a></li>
+                                <li class="text-white"><a href="gallery.html">Working Visas</a></li>
+                                <li class="text-white"><a href="services.html">Immigration Visas</a></li>
+                                <li class="text-white"><a href="contact.html">Touirsts Visas</a></li>
                             </ul><!-- /.list-unstyled -->
                         </div><!-- /.footer-widget -->
                     </div>
                 </div><!-- /.row -->
-                <p class="main-footer__copyright wow fadeInUp animated" data-wow-delay="500ms">© Copyright <span class="dynamic-year"></span><!-- /.dynamic-year --> by <a href="index.html">Ogency Template</a></p>
+                <p class="main-footer__copyright wow fadeInUp animated text-white" data-wow-delay="500ms">© Copyright <span class="dynamic-year"></span><!-- /.dynamic-year --> by <a href="index.html">FK Visa Consultant(Pvt)Ltd</a></p>
             </div><!-- /.container -->
-        </footer><!-- /.main-footer -->
+        </footer>
 
     </div><!-- /.page-wrapper -->
-    <footer class="main-footer" style="background-image: url(assets/images/backgrounds/footer-bg-1.png);">
-        <div class="container">
-            <div class="main-footer__top wow fadeInUp animated" data-wow-delay="100ms">
-                <a href="index.html" class="main-footer__logo">
-                    <img src="assets/images/FK Visa logo.png" alt="ogency" style="width: 50%;">
-                </a><!-- /.footer-logo -->
-                <div class="main-footer__social">
-                    <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
-                    <a href="https://www.pinterest.com/"><i class="fab fa-pinterest-p"></i></a>
-                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                </div><!-- /.footer-social -->
-            </div><!-- footer-top -->
-            <div class="row">
-                <div class="col-lg-8 col-md-6 wow fadeInUp animated" data-wow-delay="200ms">
-                    <div class="main-footer__about">
-                        <p class="footer-widget__text text-white">Make your dreams come true. Join our team of experts for Visa advice and visit the most beautiful places around the world. We offer Visa consultancy, Tourism Visa & Immigration Services.</p>
-                        <a href="mailto:help@company.com">Info@fkvisaconsultant.com</a>
-                    </div><!-- /.footer-widget -->
-                </div>
-                <div class="col-lg-2 col-md-3 wow fadeInUp animated" data-wow-delay="300ms">
-                    <div class="main-footer__navmenu">
-                        <ul>
-                            <li class="text-white mb-3" style="font-size: 22px;"><a>Quick Links</a></li>
-                            <li class="text-white"><a href="about.html">About</a></li>
-                            <li class="text-white"><a href="team.html">Services</a></li>
-                            <li class="text-white"><a href="blog-grid-right.html">Blog</a></li>
-                            <li class="text-white"><a href="projects.html">Career</a></li>
-                            <li class="text-white"><a href="contact.html">Contact</a></li>
-                        </ul><!-- /.list-unstyled -->
-                    </div><!-- /.footer-widget -->
-                </div>
-                <div class="col-lg-2 col-md-3 wow fadeInUp animated" data-wow-delay="400ms">
-                    <div class="main-footer__navmenu">
-                        <ul>
-                            <li class="text-white mb-3" style="font-size: 22px;"><a>Services</a></li>
-                            <li class="text-white"><a href="faq.html">Business Visas</a></li>
-                            <li class="text-white"><a href="gallery.html">Working Visas</a></li>
-                            <li class="text-white"><a href="services.html">Immigration Visas</a></li>
-                            <li class="text-white"><a href="contact.html">Touirsts Visas</a></li>
-                        </ul><!-- /.list-unstyled -->
-                    </div><!-- /.footer-widget -->
-                </div>
-            </div><!-- /.row -->
-            <p class="main-footer__copyright wow fadeInUp animated text-white" data-wow-delay="500ms">© Copyright <span class="dynamic-year"></span><!-- /.dynamic-year --> by <a href="index.html">FK Visa Consultant(Pvt)Ltd</a></p>
-        </div><!-- /.container -->
-    </footer>
+ 
 
     <div class="mobile-nav__wrapper">
         <div class="mobile-nav__overlay mobile-nav__toggler"></div>
@@ -657,7 +595,12 @@
     </a>
     <!-- back-to-top-end -->
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            window.addEventListener("load", function() {
+                AOS.init();
+            });
+        </script>
     <script src="assets/vendors/jquery/jquery-3.5.1.min.js"></script>
     <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
