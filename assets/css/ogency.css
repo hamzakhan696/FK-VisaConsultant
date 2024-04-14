@@ -1851,8 +1851,8 @@ h6 {
 /* scroll to top */
 .scroll-top {
   position: fixed;
-  right: 30px;
-  bottom: 30px;
+  right: 27px;
+  bottom: 92px;
   height: 50px;
   width: 50px;
   cursor: pointer;
@@ -2390,7 +2390,7 @@ h6 {
   margin-left: auto;
   display: flex;
   align-items: center;
-  background-color: #c70000;
+  background-color: #00a858;
   padding: 20px 3px;
 }
 .main-menu__right .support-box i{
