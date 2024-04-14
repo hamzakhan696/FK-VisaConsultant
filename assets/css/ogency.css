@@ -12170,3 +12170,45 @@ body.boxed-wrapper .main-slider__one-item__content-curved-circle-box {
 body.boxed-wrapper .main-slider__one-item__shape-1 {
   display: none;
 }
+@media (max-width: 867px) {
+.video-section iframe{
+width: 100% !important;
+}
+.about-one__thumb img{
+  width: 100% !important;
+}
+.contact-one__left2 {
+  padding: 237px 40px;
+}
+}
+
+@media (max-width: 567px) {
+ .video-section iframe{
+  width: 100% !important;
+ }
+ .unparalled-section{
+  padding: 85px 10px !important;
+ }
+ .today-videos{
+  padding: 8px !important;
+  text-align: center;
+  background-color: #162e40;
+  margin: 2%;
+}
+.countries-title{
+ padding: 0px 25px !important ;
+}
+.countries-title h1{
+  font-size: 14px;
+}
+.contact-one__left2{
+  padding: 66px 16px;
+}
+.online-visa .section-wrapper{
+  padding: 40px !important;
+}
+.main-menu__logo img{
+  width: 100px;
+  height: 80px;
+}
+}
