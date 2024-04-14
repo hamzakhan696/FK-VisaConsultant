@@ -8218,7 +8218,11 @@ font-size: 22px;
   padding: 57px 40px 61px 60px;
   margin-bottom: -110px;
 }
-
+@media (max-width: 499px) {
+ .timestamp {
+  font-size: 11px !important;
+ }
+}
 @media (max-width: 1199px) {
   .contact-info__wrapper {
     padding-bottom: 31px;
@@ -8718,6 +8722,90 @@ font-size: 22px;
   background-size: cover;
   background-position: center center;
   background-image: url(../images/news-resize-5.jpg)
+}
+.page-header__bg_canada_tourists{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: .40;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../images/immigartion-3.webp)
+}
+.page-header__bg_france_tourists{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: .40;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../images/France-Smartphone-Market_1024x724.jpg)
+}
+.page-header__bg_usa_tourists{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: .40;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../images/news-resize-5.jpg)
+}
+.page-header__bg_spain_tourists{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: .40;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../images/spain_1024x724.jpg)
+}
+.page-header__bg_turkey_tourists{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: .40;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../images/immigartion-3.webp)
+}
+.page-header__bg_germany_tourists{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: .40;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../images/Germany-flag-1024x724-1.jpg)
 }
 .apply-btn{
   border-radius: 5px;
@@ -9864,11 +9952,13 @@ font-size: 22px;
 }
 
 .services-details__services li.current a::after, .services-details__services li:hover a::after {
-  background-color: var(--ogency-base);
+  background-color: #00a858;
 }
 
 .services-details__services li.current a {
   font-weight: 800;
+  background-color: #fff;
+  color: #162e40;
 }
 
 .services-details__services li + li {
