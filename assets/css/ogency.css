@@ -1533,6 +1533,24 @@ h6 {
   z-index: 2;
   position: relative;
 }
+.career-btn{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  /* border: 1px solid #fff; */
+  outline: none !important;
+  border: none;
+  background-color: #162e40;
+  color: var(--ogency-white);
+  font-size: 16px;
+  font-weight: 800;
+  font-family: var(--ogency-font);
+  padding: 16px 40px 17px;
+  transition: 500ms;
+  overflow: hidden;
+  z-index: 2;
+  position: relative;
+}
 .country-btn{
   display: inline-block;
   vertical-align: middle;
