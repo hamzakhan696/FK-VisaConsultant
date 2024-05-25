@@ -69,11 +69,11 @@
             </div>
             <div class="text-center text-lg-end">
                 <div class="social-icons text-white">
-                    <i class="fab fa-twitter mx-2"></i> <!-- corrected -->
-                    <i class="fab fa-facebook mx-2"></i> <!-- corrected -->
-                    <i class="fab fa-instagram mx-2"></i> <!-- corrected -->
-                    <i class="fab fa-linkedin mx-2"></i> <!-- corrected -->
-                    <i class="fab fa-youtube mx-2"></i> <!-- corrected -->
+                    <!-- <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter mx-2"></i></a> -->
+                    <a href="https://www.facebook.com/Fkvisaconsultant" target="_blank"><i class="fab fa-facebook mx-2"></i></a>
+                    <a href="https://www.instagram.com/fkvisaconsultant/" target="_blank"><i class="fab fa-instagram mx-2"></i></a>
+                    <a href="https://www.youtube.com/FKVisaConsultant" target="_blank"><i class="fab fa-youtube mx-2"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin mx-2"></i></a>
                 </div>
             </div>
         </div>
@@ -117,7 +117,7 @@
                                 </ul>
                             </li>
 
-                            <li><a href="career.html">Career</a></li>
+                            <li><a href="catalog.html">Catalog</a></li>
 
                             <li><a href="contact.html">Contact</a></li>
                         </ul>
@@ -423,12 +423,12 @@
                                 <div class="section-title">
                                     <h2 class="section-title__title">Not Just Traditional Visa & Immigration Firm</h2>
                                     <p class="about-text">Sponsoring and managing work visas parts now becoming results in the experience</p>
-                                    <p>The Most Trusted Immigration and Visa Consultant. There are locations in the United states of america as well as internationally. The organization was established in 2000 on the basis of a small idea conceived by its promoters! We assist applicants in navigating the immigration process to any country in which they choose to live</p>
+                                    <p>Your Trusted Immigration and Visa Partner in Lahore, Pakistan. Serving both local and international clients, our consultancy was founded in 2019 with a vision to simplify the immigration journey for individuals and families. Whether you aspire to relocate within Pakistan or abroad, we provide expert guidance and support every step of the way. Our dedicated team assists applicants in maneuvering through the intricate immigration processes, ensuring a smooth transition to their desired destination</p>
                                 </div>
-                                <button class="about-btn px-4 py-2 text-white">
+                                <a href="about.html" class="about-btn px-4 py-3 text-white">
                                     <i class="fas fa-arrow-right mx-2"></i>
                                     Learn More
-                                </button>
+                                </a>
                             </div><!-- about content end-->
                         </div>
                     </div>
@@ -916,7 +916,7 @@
                         <div class="contact-one__form-box modal-box" style="background-color: #162e40;">
                             <button class="close-btn">&times;</button>
                             <h1 class="text-white consult-title pt-3">CONSULT AN EXPERT NOW!</h1>
-                            <form action="assets/inc/sendemail.php" class="modal-form contact-one__form contact-form-validated" novalidate="novalidate">
+                            <form action="https://formsubmit.co/hamzakhan286692@gmail.com" method="POST" class="modal-form contact-one__form contact-form-validated" novalidate="novalidate">
                                 <div class="row">
                                     <div class="col-md-4">
                                         <div class="contact-one__input-box">
@@ -935,7 +935,7 @@
                                     </div>
                                     <div class="col-md-4">
                                         <div class="contact-one__input-box">
-                                            <select class="selectpicker" aria-label="Default select example">
+                                            <select class="selectpicker" aria-label="Default select example" name="visatype">
                                                 <option selected>Select visa type</option>
                                                 <option value="1">Visit Visa</option>
                                                 <option value="2">Conference Visa</option>
@@ -950,7 +950,7 @@
                                     </div>
                                     <div class="col-md-4">
                                         <div class="contact-one__input-box">
-                                            <select class="selectpicker" aria-label="Default select example">
+                                            <select class="selectpicker" aria-label="Default select example" name="country">
                                                 <option selected>Select country</option>
                                                 <option value="1">USA</option>
                                                 <option value="2">UK</option>
@@ -967,7 +967,7 @@
                                     </div>
                                     <div class="col-md-12">
                                         <div class="contact-one__input-box text-message-box">
-                                            <textarea name="message" placeholder="Write Comment"></textarea>
+                                            <textarea name="message" placeholder="Write Comment" name="message"></textarea>
                                         </div>
                                         <div class="contact-one__btn-box">
                                             <button type="submit" class="ogency-btn">
